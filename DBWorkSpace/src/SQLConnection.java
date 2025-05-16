@@ -4,7 +4,7 @@ public class SQLConnection {
     private Connection connection;
 
     SQLConnection() throws SQLException {
-        connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/dbex", "test", "1234");
+        connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/dbex", "test", "****");
     }
 
     Connection getConnection() {
